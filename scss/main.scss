@@ -1,0 +1,10 @@
+//Variables 
+$phone: 480px;
+$tablet_min: 481px;
+$tablet_max: 1023px;
+$desktop: 1024px;
+
+@import 'reset',
+        'main_styles', 
+        'animaciones',
+        'mediaqueries';

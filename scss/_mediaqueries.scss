@@ -1,0 +1,111 @@
+/* phone */
+@media only screen and (max-width: $phone){
+    #gridArea {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-areas:     
+            "header__container"
+            "slider" 
+            "servicios"               
+            "footer__container";    
+        grid-template-rows: 10% 20% 53% 20%;    
+    }
+    header nav{
+        flex-direction: column;        
+    }
+    header ul{
+        flex-direction: column;        
+        align-items: center;
+    }
+    header li{
+        padding-left: 0px;
+    }    
+
+    .slider__home {       
+        padding: 5% 3% 10% 3%;
+    }
+
+    .slider__slogan {        
+        font-size: 22px;    
+    }    
+    
+    .slider__desc {               
+        padding: 2% 5% 5% 5%; 
+        font-size: 18px;       
+    }       
+    
+    .slider__btn {
+    font-size: 16px;    
+    }
+
+    .servicios h3{        
+        padding: 10px 0 20px 0;
+    }
+
+    .news__desc {    
+        padding-bottom: 5%; 
+            
+    }  
+
+    .footer__container {       
+        padding: 70px 20%;      
+    }
+
+    .carousel-caption {
+        padding-bottom: 3rem;}
+
+        .header__logo {
+            height: 70px;
+            padding-left: 10px;
+        }
+            
+} 
+    
+
+/* Tablet */
+@media only screen and (min-width: $tablet_min) and (max-width: $tablet_max) {
+    
+    #gridArea {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-areas:     
+            "header__container"
+            "slider" 
+            "servicios"               
+            "footer__container";    
+        grid-template-rows: 10% 20% 53% 20%;    
+    }
+    
+    .footer__container {       
+        padding: 70px 30%;      
+    }
+
+    .slider__desc {               
+        padding: 2% 5% 3% 5%;        
+    }   
+
+    .news__desc {    
+        padding-bottom: 5%;      
+    }               
+            
+    }  
+
+/* Desktop */
+@media only screen and (min-width: $desktop){
+    
+} 
+
+.text-focus-in {
+	animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+.fade-in-bottom {
+	-webkit-animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+.fade-in-right {
+	-webkit-animation: fade-in-right 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in-right 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
